@@ -3,10 +3,8 @@ if [ -d "/usr/lib/ccache" ]; then
 fi
 
 if [ -d "/usr/local/go/bin" ]; then
-    export GOROOT="/usr/local/go"
     export GOPATH="$HOME/.go"
-
-    PATH="$PATH:$GOROOT/bin"
+    PATH="$PATH:/usr/local/go/bin"
 fi
 
 if [ -d "/usr/local/freeswitch/bin" ]; then
