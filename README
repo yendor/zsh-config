@@ -1,8 +1,10 @@
 Installation
 --------------
 
-cd ~/.oh-my-zsh
-mv custom custom.old
-git clone git@github.com:yendor/zsh-config.git custom
+git clone git@github.com:yendor/zsh-config.git ~/.zsh-custom
 
-Then edit ~/.zshrc and change the theme to yendor
+
+Then edit ~/.zshrc and 
+
+* change the theme to yendor
+* add ZSH_CUSTOM=$HOME/.zsh-custom line (either to the end or comment out and change the example)
